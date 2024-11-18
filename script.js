@@ -18,7 +18,7 @@ searchForm.addEventListener("submit", (e) => {
 });
 
 async function getData(movie) {
-  const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${movie}`;
+  const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${movie}`;
 
   try {
     const response = await fetch(url);
